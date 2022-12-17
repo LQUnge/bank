@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import { Header } from "../components/Header";
 import { Cards } from "../components/Cards";
+import { ManyCards } from "../components/ManyCards";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <main className="w-screen">
         <Header />
         <Cards />
+        <ManyCards />
       </main>
     </>
   );
